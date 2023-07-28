@@ -37,7 +37,7 @@
     <header>
         <!-- nav-bar -->
         <nav class="container mx-auto ">
-            <div class="navbar lg:bg-[#F85559] rounded-full my-12 flex justify-between px-14 py-6">
+            <div class="navbar lg:bg-red-400 rounded-full my-12 flex justify-between px-14 py-6">
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a class="text-white font-bold text-lg">Home</a></li>
@@ -71,7 +71,7 @@
                 </div>
                 <div>
                     <div class="relative">
-                        <i class="fa-solid absolute left-[120px] lg:left-[180px] top-[35%] fa-magnifying-glass"></i>
+                        <i class="fa-solid absolute left-[120px] lg:left-[175px] top-[30%] fa-magnifying-glass"></i>
                         <input type="text" placeholder="Search here"
                             class="bg-gray-400 placeholder:text-white lg:bg-white lg:placeholder:text-black p-3 lg:py-3 lg:px-5 rounded-full w-[150px] lg:w-auto" />
                     </div>
@@ -80,6 +80,49 @@
         </nav>
         <!-- nav-bar-end -->
     </header>
+    <main class="contianer p-5 lg:p-0 mx-auto">
+        <section class=" relative">
+            <div class="carousel z-0 w-full mt-2 lg:mb-6 rounded-xl">
+                <!-- s-1 -->
+                <div id="slide1" class="carousel-item bg-gray-600 z-0 relative w-full">
+                    <img src="./images/banner1.png" class="w-full mix-blend-overlay" />
+                    <div
+                        class=" absolute left-[50%] top-[30%] transform -translate-x-[50%] -translate-y-[30%] text-center">
+                        <h3 class="text-lg lg:text-5xl font-bold text-white lg:mb-2">Exotic tastes at your doorstep</h3>
+                        <p class="text-sm mb-2 lg:text-xl font-medium text-white lg:mb-6">We supply high-quality organic
+                            products</p>
+                        <button
+                            class="btn btn-primary bg-red-400 outline-none border-collapse hover:bg-gray-500 hover:text-white">Shop
+                            Now</button>
+                    </div>
+                    <div class="">
+                        <a href="#slide4"
+                            class="absolute ml-8 left-0 top-[50%] btn btn-circle bg-[rgba(0,0,0,0.3)] text-white text-2xl font-bold hover:text-black">❮</a>
+                        <a href="#slide2"
+                            class="absolute mr-8 right-0 top-[50%] btn btn-circle  bg-[rgba(0,0,0,0.3)] text-white text-2xl font-bold hover:text-black">❯</a>
+                    </div>
+                </div>
+                <!--  s-2-->
+                <div id="slide2" class="carousel-item z-0  bg-gray-600 relative w-full">
+                    <img src="./images/banner2.png" class="w-full mix-blend-overlay " />
+                    <div
+                        class=" absolute left-[50%] top-[30%] transform -translate-x-[50%] -translate-y-[30%] text-center">
+                        <h3 class="text-lg lg:text-5xl font-bold text-white lg:mb-2">Exotic tastes at your doorstep</h3>
+                        <p class="text-sm mb-2 lg:text-xl font-medium text-white lg:mb-6">We supply high-quality organic
+                            products</p>
+                        <button
+                            class="btn btn-primary bg-red-400 outline-none border-collapse hover:bg-gray-500 hover:text-white">Shop
+                            Now</button>
+                    </div>
+                    <div class="">
+                        <a href="#slide1"
+                            class="absolute ml-8 left-0 top-[50%] btn btn-circle bg-[rgba(0,0,0,0.3)] text-white text-2xl font-bold hover:text-black">❮</a>
+                        <a href="#slide3"
+                            class="absolute mr-8 right-0 top-[50%] btn btn-circle  bg-[rgba(0,0,0,0.3)] text-white text-2xl font-bold hover:text-black">❯</a>
+                    </div>
+                </div>
+
+    </main>
 </body>
 
 </html>
